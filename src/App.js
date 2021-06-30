@@ -72,7 +72,7 @@ function App() {
               <Button id="back-button" variant="primary" style={{ display: currentPg < 2 || currentPg > 4 ? "none" : "block " }} onClick={() => handleBackButtonClick()}>
                 Back
               </Button>
-              <button 
+              <Button 
                 className={currentPg === 4 ? "hh-submit" : null } 
                 id={currentPg === 4 ? "submit-button" : "next-button"} 
                 variant="primary" 
@@ -81,7 +81,7 @@ function App() {
                   {currentPg < 4 && "Next"}
                   {currentPg === 4 && "Submit"}
                   {currentPg === 5 && "Get in touch"}
-              </button>
+              </Button>
               </div>
           </Modal.Body>
               <img src={PoweredByHalda} style={{ width: '100px', height: '8px', position: 'absolute', right: '10px', bottom: '5px'}} label="Powered by Halda"/>
