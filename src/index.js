@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+window.$data = {
+  q1: '',
+  q2: '',
+  q3: '',
+  FirstName: '',
+  LastName: '',
+  Email: ''
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
