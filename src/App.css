@@ -36,3 +36,95 @@
     transform: rotate(360deg);
   }
 }
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-content {
+  width: 617px;
+  height: 370px;
+  background-color: #B3ADA8;
+}
+
+.btn-primary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.btn-primary.active {
+  background-color: teal !important;
+}
+
+#next-button {
+  background-color: #EB6A22 !important;
+  width: 130px;
+  height: 35px;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+
+#back-button {
+  background-color: #A8A29D !important;
+  width: 130px;
+  height: 35px;
+  position: absolute;
+  bottom: 10px;
+  right: 200px;
+}
+
+#submit-button {
+  background-color: #0098DA !important;
+  width: 110px;
+  height: 35px;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+
+#section-title {
+  font-size: 16px;
+  color: #000;;
+}
+
+#image-text {
+  font-size: 10px;
+  color: #000;
+}
+
+/* #page-1-content {
+
+} */
+
+#modal-footer {
+  border-top: none !important;
+}
+
+.slide4-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border: 1px solid white;
+  background-color: transparent !important;
+  color: white;
+  margin: 10px;
+}
+
+.slide4-input::placeholder {
+  font-size: 16px;
+  color: #fff;
+}
+
+button, input, optgroup, select, textarea {
+  background-color: transparent;
+  border-top: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 8px;
+}
+
+button, input::placeholder, optgroup, select, textarea {
+  font-size: 16px;
+  color: #fff;
+}
