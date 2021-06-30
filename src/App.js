@@ -50,18 +50,10 @@ function App() {
       <>
         <Modal show={true} onHide={handleClose}>
             <div style={{ height: '30px'}}>
-              <img src={ClemsonLogo} style={{ height: '50px', margin: '20px 0px 10px 20px'}}/>
+              <p>Halda Required Components</p>
             </div>
           <Modal.Body>
             <section id="page-1-content" style={{ display: 'inline-grid'}}>
-              {currentPg < 5 ?
-              <>
-                <img src={DevOrPlannerLogo} style={{ height: '100px', width: '230px', margin: '10px', marginLeft: '20px', position: 'absolute', marginTop: '50px' }}/>
-                <img src={BuildingImages} style={{ height: '150px', width: '200px', margin: '10px', marginLeft: '20px', position: 'absolute', bottom: 0 }}/>
-              </>
-              :
-              null
-              }
             </section>
               {currentPg === 1 && <Slide1></Slide1>}
               {currentPg === 2 && <Slide2></Slide2>}
@@ -85,9 +77,6 @@ function App() {
               </div>
           </Modal.Body>
               <img src={PoweredByHalda} style={{ width: '100px', height: '8px', position: 'absolute', right: '10px', bottom: '5px'}} label="Powered by Halda"/>
-            {/* <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button> */}
         </Modal>
       </>
   );

@@ -14,11 +14,11 @@ const Confirmation = () => {
     return (
         <>
             <section style={{ float: 'right', width: '250px', background: 'none', marginTop: '50px', marginRight: '25%' }}>
-            <h3>Thank you, {dataFirstName}</h3>
+            <h3>Thank you</h3>
 
-            <p>It looks like you could be a great fit for MRED!</p>
+            <p>These are the components required at this time</p>
 
-            <p>Take the next step and get in touch with our program director!</p>
+            <p>Please refer to the react-bootstrap documentation here: <br/><a href="https://react-bootstrap.github.io/components/alerts">React Bootstrap</a></p>
             </section>
         </>
     )
